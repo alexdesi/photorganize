@@ -26,7 +26,7 @@ Before to copy each photo, the creation date is read from the photo, and then a 
 Note: that photOrganize gets the creation date inside the photo, not from the file system, that's important, so you can use it to organize photos that you already moved/copied on other folders.
 
 #Dependencies
-photOrganize use the get mini_exiftool to read the creation date. 
+photOrganize uses *mini_exiftool* to read the creation date. 
 
 To install it:
     $ gem install mini_exiftool
